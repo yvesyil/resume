@@ -9,17 +9,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v2
+    - name: Checkout the resume repository
+      uses: actions/checkout@v3
+      with:
+        path: src
+        persist-credentials: false
+    
+    - name: Checkout personal website repository
+      uses: actions/checkout@v3
+      with:
+        path: dest
+        repository: 'yvesyil/yvesyil.github.io'
+        token: ${{ secrets.AUTOCOPY_TOKEN }}
+        fetch-depth: 0
+        persist-credentials: true
 
-    - name: Copy the PDF file
-      run: cp -f ./build/resume.pdf ./yvesyil.github.io/curriculum-vitae.pdf
+    - name: Copy resume
+      run: cp -f ./src/build/resume.pdf ./dest/curriculum-vitae.pdf
 
     - name: Commit and push changes
+      working-directory: dest
       run: |
         cd ./yvesyil.github.io
-        git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git config --local user.email "action@github.com"
         git add -A
-        git commit -m "Copy PDF file"
+        git commit -m "[Action] Copy resume"
         git push origin main
