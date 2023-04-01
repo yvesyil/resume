@@ -1,0 +1,33 @@
+name: Copy Resume to Personal Website
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  copy-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v2
+
+    - name: Authenticate with the destination repository
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.TOKEN }}
+
+    - name: Clone the destination repository
+      run: git clone https://github.com/yvesyil/yvesyil.github.io.git
+
+    - name: Copy the PDF file
+      run: cp -f ./build/resume.pdf ./yvesyil.github.io/curriculum-vitae.pdf
+
+    - name: Commit and push changes
+      run: |
+        cd ./<destination-repo>
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add -A
+        git commit -m "Copy PDF file"
+        git push origin main
