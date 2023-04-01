@@ -30,7 +30,6 @@ jobs:
     - name: Commit and push changes
       working-directory: dest
       run: |
-        cd ./yvesyil.github.io
         git config --local user.name "GitHub Action"
         git config --local user.email "action@github.com"
         git add -A
