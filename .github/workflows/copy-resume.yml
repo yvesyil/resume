@@ -12,11 +12,6 @@ jobs:
     - name: Checkout the code
       uses: actions/checkout@v2
 
-    - name: Authenticate with the destination repository
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.TOKEN }}
-
     - name: Clone the destination repository
       run: git clone https://github.com/yvesyil/yvesyil.github.io.git
 
