@@ -11,11 +11,6 @@ jobs:
     steps:
     - name: Checkout the code
       uses: actions/checkout@v2
-      with:
-        ref: main
-        repository: yvesyil/resume
-        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-        fetch-depth: 0
 
     - name: Authenticate with the destination repository
       uses: ad-m/github-push-action@master
