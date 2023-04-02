@@ -54,10 +54,10 @@ RM = /usr/local/Cellar/cmake/3.20.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yigityilmaz/Desktop/resume
+CMAKE_SOURCE_DIR = /Users/yigityilmaz/Repos/resume
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yigityilmaz/Desktop/resume/build
+CMAKE_BINARY_DIR = /Users/yigityilmaz/Repos/resume/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/dvi.dir/clean
 CMakeFiles/resume.dir/all: CMakeFiles/resume_pdf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume.dir/build.make CMakeFiles/resume.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume.dir/build.make CMakeFiles/resume.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target resume"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target resume"
 .PHONY : CMakeFiles/resume.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume.dir/rule
 
 # Convenience name for target.
@@ -120,14 +120,14 @@ CMakeFiles/resume.dir/clean:
 CMakeFiles/resume_html.dir/all: CMakeFiles/resume_dvi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_html.dir/build.make CMakeFiles/resume_html.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_html.dir/build.make CMakeFiles/resume_html.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=4,5,6 "Built target resume_html"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=4,5,6 "Built target resume_html"
 .PHONY : CMakeFiles/resume_html.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_html.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_html.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_html.dir/rule
 
 # Convenience name for target.
@@ -146,14 +146,14 @@ CMakeFiles/resume_html.dir/clean:
 CMakeFiles/resume_ps.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_ps.dir/build.make CMakeFiles/resume_ps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_ps.dir/build.make CMakeFiles/resume_ps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=9,10,11 "Built target resume_ps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=9,10,11 "Built target resume_ps"
 .PHONY : CMakeFiles/resume_ps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_ps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_ps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_ps.dir/rule
 
 # Convenience name for target.
@@ -172,14 +172,14 @@ CMakeFiles/resume_ps.dir/clean:
 CMakeFiles/_resume.dir/all: CMakeFiles/resume.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_resume.dir/build.make CMakeFiles/_resume.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/_resume.dir/build.make CMakeFiles/_resume.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target _resume"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target _resume"
 .PHONY : CMakeFiles/_resume.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/_resume.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/_resume.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/_resume.dir/rule
 
 # Convenience name for target.
@@ -198,14 +198,14 @@ CMakeFiles/_resume.dir/clean:
 CMakeFiles/resume_dvi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_dvi.dir/build.make CMakeFiles/resume_dvi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_dvi.dir/build.make CMakeFiles/resume_dvi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=2,3 "Built target resume_dvi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=2,3 "Built target resume_dvi"
 .PHONY : CMakeFiles/resume_dvi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_dvi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_dvi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_dvi.dir/rule
 
 # Convenience name for target.
@@ -224,14 +224,14 @@ CMakeFiles/resume_dvi.dir/clean:
 CMakeFiles/auxclean.dir/all: CMakeFiles/resume_auxclean.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auxclean.dir/build.make CMakeFiles/auxclean.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auxclean.dir/build.make CMakeFiles/auxclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target auxclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target auxclean"
 .PHONY : CMakeFiles/auxclean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/auxclean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/auxclean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/auxclean.dir/rule
 
 # Convenience name for target.
@@ -250,14 +250,14 @@ CMakeFiles/auxclean.dir/clean:
 CMakeFiles/html.dir/all: CMakeFiles/resume_html.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/html.dir/build.make CMakeFiles/html.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/html.dir/build.make CMakeFiles/html.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target html"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target html"
 .PHONY : CMakeFiles/html.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/html.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/html.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/html.dir/rule
 
 # Convenience name for target.
@@ -276,14 +276,14 @@ CMakeFiles/html.dir/clean:
 CMakeFiles/safepdf.dir/all: CMakeFiles/resume_safepdf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/safepdf.dir/build.make CMakeFiles/safepdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/safepdf.dir/build.make CMakeFiles/safepdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target safepdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target safepdf"
 .PHONY : CMakeFiles/safepdf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/safepdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/safepdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/safepdf.dir/rule
 
 # Convenience name for target.
@@ -302,14 +302,14 @@ CMakeFiles/safepdf.dir/clean:
 CMakeFiles/pdf.dir/all: CMakeFiles/resume_pdf.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf.dir/build.make CMakeFiles/pdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pdf.dir/build.make CMakeFiles/pdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target pdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target pdf"
 .PHONY : CMakeFiles/pdf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/pdf.dir/rule
 
 # Convenience name for target.
@@ -328,14 +328,14 @@ CMakeFiles/pdf.dir/clean:
 CMakeFiles/resume_pdf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_pdf.dir/build.make CMakeFiles/resume_pdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_pdf.dir/build.make CMakeFiles/resume_pdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=7,8 "Built target resume_pdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=7,8 "Built target resume_pdf"
 .PHONY : CMakeFiles/resume_pdf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_pdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_pdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_pdf.dir/rule
 
 # Convenience name for target.
@@ -354,14 +354,14 @@ CMakeFiles/resume_pdf.dir/clean:
 CMakeFiles/resume_safepdf.dir/all: CMakeFiles/resume_ps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_safepdf.dir/build.make CMakeFiles/resume_safepdf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_safepdf.dir/build.make CMakeFiles/resume_safepdf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target resume_safepdf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target resume_safepdf"
 .PHONY : CMakeFiles/resume_safepdf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_safepdf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_safepdf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_safepdf.dir/rule
 
 # Convenience name for target.
@@ -380,14 +380,14 @@ CMakeFiles/resume_safepdf.dir/clean:
 CMakeFiles/ps.dir/all: CMakeFiles/resume_ps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps.dir/build.make CMakeFiles/ps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target ps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target ps"
 .PHONY : CMakeFiles/ps.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/ps.dir/rule
 
 # Convenience name for target.
@@ -406,14 +406,14 @@ CMakeFiles/ps.dir/clean:
 CMakeFiles/resume_auxclean.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_auxclean.dir/build.make CMakeFiles/resume_auxclean.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/resume_auxclean.dir/build.make CMakeFiles/resume_auxclean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=1 "Built target resume_auxclean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=1 "Built target resume_auxclean"
 .PHONY : CMakeFiles/resume_auxclean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/resume_auxclean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/resume_auxclean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/resume_auxclean.dir/rule
 
 # Convenience name for target.
@@ -432,14 +432,14 @@ CMakeFiles/resume_auxclean.dir/clean:
 CMakeFiles/dvi.dir/all: CMakeFiles/resume_dvi.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dvi.dir/build.make CMakeFiles/dvi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dvi.dir/build.make CMakeFiles/dvi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num= "Built target dvi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num= "Built target dvi"
 .PHONY : CMakeFiles/dvi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dvi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dvi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Desktop/resume/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yigityilmaz/Repos/resume/build/CMakeFiles 0
 .PHONY : CMakeFiles/dvi.dir/rule
 
 # Convenience name for target.
@@ -458,7 +458,7 @@ CMakeFiles/dvi.dir/clean:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -P /Users/yigityilmaz/Desktop/resume/build/CMakeFiles/VerifyGlobs.cmake
+	$(CMAKE_COMMAND) -P /Users/yigityilmaz/Repos/resume/build/CMakeFiles/VerifyGlobs.cmake
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

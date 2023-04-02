@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.20.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yigityilmaz/Desktop/resume
+CMAKE_SOURCE_DIR = /Users/yigityilmaz/Repos/resume
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yigityilmaz/Desktop/resume/build
+CMAKE_BINARY_DIR = /Users/yigityilmaz/Repos/resume/build
 
 # Utility rule file for safepdf.
 
@@ -78,6 +78,6 @@ CMakeFiles/safepdf.dir/clean:
 .PHONY : CMakeFiles/safepdf.dir/clean
 
 CMakeFiles/safepdf.dir/depend:
-	cd /Users/yigityilmaz/Desktop/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build/CMakeFiles/safepdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yigityilmaz/Repos/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build/CMakeFiles/safepdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/safepdf.dir/depend
 

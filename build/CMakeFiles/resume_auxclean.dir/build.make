@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.20.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yigityilmaz/Desktop/resume
+CMAKE_SOURCE_DIR = /Users/yigityilmaz/Repos/resume
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yigityilmaz/Desktop/resume/build
+CMAKE_BINARY_DIR = /Users/yigityilmaz/Repos/resume/build
 
 # Utility rule file for resume_auxclean.
 
@@ -67,8 +67,8 @@ include CMakeFiles/resume_auxclean.dir/compiler_depend.make
 include CMakeFiles/resume_auxclean.dir/progress.make
 
 CMakeFiles/resume_auxclean:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning auxiliary LaTeX files."
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E remove /Users/yigityilmaz/Desktop/resume/build/resume.aux /Users/yigityilmaz/Desktop/resume/build/resume.bbl /Users/yigityilmaz/Desktop/resume/build/resume.blg /Users/yigityilmaz/Desktop/resume/build/resume-blx.bib /Users/yigityilmaz/Desktop/resume/build/resume.glg /Users/yigityilmaz/Desktop/resume/build/resume.glo /Users/yigityilmaz/Desktop/resume/build/resume.gls /Users/yigityilmaz/Desktop/resume/build/resume.idx /Users/yigityilmaz/Desktop/resume/build/resume.ilg /Users/yigityilmaz/Desktop/resume/build/resume.ind /Users/yigityilmaz/Desktop/resume/build/resume.ist /Users/yigityilmaz/Desktop/resume/build/resume.log /Users/yigityilmaz/Desktop/resume/build/resume.out /Users/yigityilmaz/Desktop/resume/build/resume.toc /Users/yigityilmaz/Desktop/resume/build/resume.lof /Users/yigityilmaz/Desktop/resume/build/resume.xdy /Users/yigityilmaz/Desktop/resume/build/resume.synctex.gz /Users/yigityilmaz/Desktop/resume/build/resume.synctex.bak.gz /Users/yigityilmaz/Desktop/resume/build/resume.dvi /Users/yigityilmaz/Desktop/resume/build/resume.ps /Users/yigityilmaz/Desktop/resume/build/resume.pdf /Users/yigityilmaz/Desktop/resume/build/resume.aux /Users/yigityilmaz/Desktop/resume/build/resume.tex.aux
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Cleaning auxiliary LaTeX files."
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E remove /Users/yigityilmaz/Repos/resume/build/resume.aux /Users/yigityilmaz/Repos/resume/build/resume.bbl /Users/yigityilmaz/Repos/resume/build/resume.blg /Users/yigityilmaz/Repos/resume/build/resume-blx.bib /Users/yigityilmaz/Repos/resume/build/resume.glg /Users/yigityilmaz/Repos/resume/build/resume.glo /Users/yigityilmaz/Repos/resume/build/resume.gls /Users/yigityilmaz/Repos/resume/build/resume.idx /Users/yigityilmaz/Repos/resume/build/resume.ilg /Users/yigityilmaz/Repos/resume/build/resume.ind /Users/yigityilmaz/Repos/resume/build/resume.ist /Users/yigityilmaz/Repos/resume/build/resume.log /Users/yigityilmaz/Repos/resume/build/resume.out /Users/yigityilmaz/Repos/resume/build/resume.toc /Users/yigityilmaz/Repos/resume/build/resume.lof /Users/yigityilmaz/Repos/resume/build/resume.xdy /Users/yigityilmaz/Repos/resume/build/resume.synctex.gz /Users/yigityilmaz/Repos/resume/build/resume.synctex.bak.gz /Users/yigityilmaz/Repos/resume/build/resume.dvi /Users/yigityilmaz/Repos/resume/build/resume.ps /Users/yigityilmaz/Repos/resume/build/resume.pdf /Users/yigityilmaz/Repos/resume/build/resume.aux /Users/yigityilmaz/Repos/resume/build/resume.tex.aux
 
 resume_auxclean: CMakeFiles/resume_auxclean
 resume_auxclean: CMakeFiles/resume_auxclean.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/resume_auxclean.dir/clean:
 .PHONY : CMakeFiles/resume_auxclean.dir/clean
 
 CMakeFiles/resume_auxclean.dir/depend:
-	cd /Users/yigityilmaz/Desktop/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build/CMakeFiles/resume_auxclean.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yigityilmaz/Repos/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build/CMakeFiles/resume_auxclean.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/resume_auxclean.dir/depend
 

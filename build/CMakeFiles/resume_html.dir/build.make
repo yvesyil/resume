@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.20.5/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/yigityilmaz/Desktop/resume
+CMAKE_SOURCE_DIR = /Users/yigityilmaz/Repos/resume
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/yigityilmaz/Desktop/resume/build
+CMAKE_BINARY_DIR = /Users/yigityilmaz/Repos/resume/build
 
 # Utility rule file for resume_html.
 
@@ -70,19 +70,19 @@ CMakeFiles/resume_html: resume.html
 
 resume.html: resume.tex
 resume.html: resume.dvi
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resume.html"
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Desktop/resume/build /Library/TeX/texbin/htlatex resume.tex html "" "" -interaction=batchmode -file-line-error
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating resume.html"
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Repos/resume/build /Library/TeX/texbin/htlatex resume.tex html "" "" -interaction=batchmode -file-line-error
 
 resume.dvi: resume.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating resume.dvi"
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Desktop/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Desktop/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Desktop/resume/UseLATEX.cmake
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Desktop/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Desktop/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Desktop/resume/UseLATEX.cmake
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Desktop/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Desktop/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Desktop/resume/UseLATEX.cmake
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Desktop/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=check_important_warnings -D LATEX_TARGET=resume -P /Users/yigityilmaz/Desktop/resume/UseLATEX.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating resume.dvi"
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Repos/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Repos/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Repos/resume/UseLATEX.cmake
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Repos/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Repos/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Repos/resume/UseLATEX.cmake
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Repos/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_WORKING_DIRECTORY="/Users/yigityilmaz/Repos/resume/build" -D LATEX_FULL_COMMAND="/Library/TeX/texbin/latex -interaction=batchmode -file-line-error resume.tex" -D LATEX_OUTPUT_FILE="resume.dvi" -D LATEX_LOG_FILE="resume.log" -P /Users/yigityilmaz/Repos/resume/UseLATEX.cmake
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E chdir /Users/yigityilmaz/Repos/resume/build /usr/local/Cellar/cmake/3.20.5/bin/cmake -D LATEX_BUILD_COMMAND=check_important_warnings -D LATEX_TARGET=resume -P /Users/yigityilmaz/Repos/resume/UseLATEX.cmake
 
 resume.tex: ../resume.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Desktop/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating resume.tex"
-	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E copy /Users/yigityilmaz/Desktop/resume/resume.tex /Users/yigityilmaz/Desktop/resume/build/resume.tex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/yigityilmaz/Repos/resume/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating resume.tex"
+	/usr/local/Cellar/cmake/3.20.5/bin/cmake -E copy /Users/yigityilmaz/Repos/resume/resume.tex /Users/yigityilmaz/Repos/resume/build/resume.tex
 
 resume_html: CMakeFiles/resume_html
 resume_html: resume.dvi
@@ -100,6 +100,6 @@ CMakeFiles/resume_html.dir/clean:
 .PHONY : CMakeFiles/resume_html.dir/clean
 
 CMakeFiles/resume_html.dir/depend:
-	cd /Users/yigityilmaz/Desktop/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build /Users/yigityilmaz/Desktop/resume/build/CMakeFiles/resume_html.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/yigityilmaz/Repos/resume/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build /Users/yigityilmaz/Repos/resume/build/CMakeFiles/resume_html.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/resume_html.dir/depend
 
