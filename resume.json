@@ -1,0 +1,206 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yiğit Yılmaz",
+    "label": "Software Engineer",
+    "image": "https://yvesyil.xyz/public/profile.jpeg",
+    "email": "doganyigityilmaz@gmail.com",
+    "phone": "+353858171075",
+    "url": "https://yvesyil.xyz",
+    "summary": "As a software engineer with a strong understanding of computer systems at all abstraction layers, my systematic approach, combined with my ability to map my existing knowledge to solve seemingly unrelated problems, allows me to find the optimal solutions. With experience in a range of technologies, I'm always eager to learn and adapt to new challenges in the rapidly evolving software industry.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Athlone",
+      "countryCode": "IE",
+      "region": "Westmeath"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "d-yigit-yilmaz",
+        "url": "https://linkedin.com/in/d-yigit-yilmaz"
+      },
+      {
+        "network": "Github",
+        "username": "yvesyil",
+        "url": "https://github.com/yvesyil"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Johnson Controls",
+      "location": "Cork, Ireland",
+      "description": "",
+      "position": "Software Developer Intern (FTC)",
+      "url": "http://johnsoncontrols.com",
+      "startDate": "2022-01-17",
+      "endDate": "2022-07-15",
+      "summary": "",
+      "highlights": [
+        "Collaborated on the design and development of an enterprise-grade chatbot using Node.js and Azure Bot Framework SDK, hosted on Microsoft Azure Cloud.",
+        "Implemented the core web service of the chatbot that communicated with both internal and external REST API microservices.",
+        "Utilized natural language processing AI models available on Azure Cognitive Services to enhance the chatbot's ability to understand and respond to user input.",
+        "Worked within an agile development process utilizing Azure DevOps and Git version control."
+      ]
+    },
+    {
+      "name": "Adastec",
+      "location": "Istanbul, Turkey",
+      "description": "",
+      "position": "Software Engineer Intern",
+      "url": "https://adastec.com",
+      "startDate": "2021-06-01",
+      "endDate": "2021-08-01",
+      "summary": "",
+      "highlights": [
+        "Worked in the perception part of the autonomous driving software for commercial vehicles.",
+        "Designed and developed a service using C++14 to detect the position and the state (opened or closed) of access barriers using 3D space LIDAR sensor data.",
+        "Utilized pub/sub communication with other services to ensure the raw LIDAR sensor data was compressed, noiseless, and semanticized."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Technological University of the Shannon (TUS)",
+      "url": "https://www.ait.ie",
+      "area": "Software Engineering with Cloud Computing",
+      "studyType": "BSc Hons.",
+      "startDate": "2021-09-06",
+      "endDate": "2023-05-10",
+      "score": "",
+      "courses": [
+        "Distributed Systems",
+        "Databases",
+        "Service Oriented Architecture",
+        "Security"
+      ]
+    },
+    {
+      "institution": "Bilkent University",
+      "url": "https://w3.bilkent.edu.tr",
+      "area": "Information Systems and Technologies",
+      "studyType": "BSc (Incomplete, transfered to TUS)",
+      "startDate": "2019-09-16",
+      "endDate": "2021-09-06",
+      "score": "",
+      "courses": [
+        "Object Oriented Analysis and Design",
+        "Computer Algorithms and Data Structures",
+        "Computer Networks Cisco CCNA",
+        "Web Technologies"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "TypeScript",
+        "React",
+        "WebGL"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java",
+        "MySQL",
+        "MongoDB",
+        "Docker",
+        "Microsoft Azure",
+        "Linux coreutils"
+      ]
+    },
+    {
+      "name": "Low-level Programming",
+      "keywords": [
+        "C",
+        "C++14",
+        "CMake",
+        "OpenGL",
+        "OpenCL",
+        "Binutils"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Turkish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Playing Guitar",
+        "Reading Blogs",
+        "Learning French"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Claw.js",
+      "description": "A linear algebra library for JavaScript that's written in both C and JavaScript that uses OpenCL to compute matrices on the GPU. It's aimed to be used for Deep Learning applications as it can reduce training time.",
+      "highlights": [
+      ],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "C11",
+        "CMake",
+        "Mocha"
+      ],
+      "url": "https://github.com/tussoftwaredesign/claw-js",
+      "type": "application"
+    },
+    {
+      "name": "Neural Network from Scratch",
+      "description": "A Neural network completely written from scratch using TypeScript with matrix and differential operations are written by me, designed to recognize hand-written digits. Also serves as a REST API that can be interacted with by sending JSON over the wire.",
+      "highlights": [
+      ],
+      "keywords": [
+        "TypeScript",
+        "Express.js"
+      ],
+      "url": "https://github.com/yvesyil/neural-net-api",
+      "type": "application"
+    },
+    {
+      "name": "Introspection",
+      "description": "(WIP) A fullstack compiler explorer web application tool that converts higher-level source code (e.g. C) to lower level representation (x86 assembly) using React with TypeScript on the frontend and a microservice architecture in the backend using Java, Go, and TypeScript.",
+      "highlights": [
+      ],
+      "keywords": [
+        "TypeScript",
+        "React",
+        "Fluent UI",
+        "Java",
+        "Go",
+        "MySQL",
+        "Docker"
+      ],
+      "url": "https://github.com/yvesyil/introspection",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "theme": "kendall",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
