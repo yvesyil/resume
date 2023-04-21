@@ -26,7 +26,7 @@
 %-------------------------------------------------- SETTINGS HERE --------------------------------------------------
 % Header settings
 \def \fullname {Yiğit Yılmaz}
-\def \subtitle {Software Engineer}
+\def \subtitle {\textbf{Software Engineer}}
 
 \def \linkedinicon {\faLinkedin}
 \def \linkedinlink {https://linkedin.com/in/d-yigit-yilmaz/}
@@ -46,6 +46,8 @@
 \def \websiteicon {\faGlobe}
 \def \websitelink {https://yvesyil.xyz}
 \def \websitetext {yvesyil.xyz}
+
+\def \pronounciationlink {http://ipa-reader.xyz/?text=ji\%CB\%88it\%20j\%C9\%AF\%C9\%AB\%CB\%88maz&voice=Filiz}
 
 \def \headertype {\doublecol} % \singlecol or \doublecol
 
@@ -68,6 +70,7 @@
 \def \email {\emailicon \hspace{3pt}\href{\emaillink}{\emailtext}}
 \def \github {\githubicon \hspace{3pt}\href{\githublink}{\githubtext}}
 \def \website {\websiteicon \hspace{3pt}\href{\websitelink}{\websitetext}}
+\def \howtopronounce {\faInfoCircle \hspace{3pt}\href{\pronounciationlink}{How to pronounce my name}}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.55in}
@@ -179,8 +182,11 @@
 
 %---------------------------------------------------- HEADER ----------------------------------------------------
 
-\headertype{\linkedin}{\github}{\website}{\phone}{\email}{} % Set the order of items here
-\vspace{-5pt} % Set a negative value to push the body up, and the opposite
+\headertype{\linkedin}{\github}{\website}{\phone}{\email}{\howtopronounce} % Set the order of items here
+
+The quote "What I cannot create, I do not understand" by Richard Feynman really resonates with me because this is my approach for learning new concepts in life. If I find myself trying to understand how a system works, I start by thinking how I would design it and build a small version of it.
+
+%\vspace{-5pt} % Set a negative value to push the body up, and the opposite
 
 %-------------------------------------------------- EDUCATION --------------------------------------------------
 \section{\faGraduationCap}{Education}
@@ -256,10 +262,17 @@
 
 %-------------------------------------------------- PROGRAMMING SKILLS --------------------------------------------------
 \section{\faGears}{Skills}
- \resumeEntryStart
-  \resumeEntryS{Languages} {JavaScript, TypeScript, Python, C, C++, Java, PHP, HTML, CSS, SQL, JSON, YAML}
-  \resumeEntryS{Tools \& Technologies} {Git, Node.js, MongoDB, MySQL, Docker, Microsoft Azure, Azure DevOps, Linux, CMake, Coreutils \& binutils}
-  \resumeEntryS{Frameworks \& Libraries} {React, Express.js, Flask, Pandas, PyTorch, OpenGL, OpenCL, WebGL}
- \resumeEntryEnd
+  \resumeEntryStart
+    \resumeEntryS{Programming Languages} {JavaScript, TypeScript, Python, Go, C, C++, Java, PHP, HTML, CSS, SQL, JSON, YAML}
+    \resumeEntryS{Tools \& Technologies} {Git, Node.js, MongoDB, MySQL, Docker, Microsoft Azure, Azure DevOps, Linux, CMake, Coreutils \& binutils}
+    \resumeEntryS{Frameworks \& Libraries} {React, Express.js, Flask, Pandas, PyTorch, OpenGL, OpenCL, WebGL}
+    \resumeEntryS{Natural Languages} {Turkish, English}
+  \resumeEntryEnd
+
+%-------------------------------------------------- Hobbies --------------------------------------------------
+\section{\faHeart}{Hobbies}
+  \resumeEntryStart
+    \resumeEntryS{} {Playing Guitar, Reading Blogs, Learning French}
+  \resumeEntryEnd
 
 \end{document}

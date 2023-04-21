@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  2 APR 2023 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  21 APR 2023 22:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,9 +229,9 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \TX@cols=\count272
 \TX@ftn=\toks24
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+Package hyperref Info: Option `colorlinks' set `true' on input line 86.
 LaTeX Font Info:    Trying to load font information for T1+FiraSans-OsF on inpu
-t line 177.
+t line 180.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fira/T1FiraSans-OsF.fd
 File: T1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for T1/FiraSans-
 OsF.
@@ -239,9 +239,9 @@ OsF.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/l/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/light/n' tried instead on input
- line 177.
+ line 180.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/light/n' will be
-(Font)              scaled to size 12.0pt on input line 177.
+(Font)              scaled to size 12.0pt on input line 180.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
@@ -249,25 +249,25 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
-LaTeX Font Info:    ... okay on input line 177.
-Package hyperref Info: Link coloring ON on input line 177.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+Package hyperref Info: Link coloring ON on input line 180.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -279,9 +279,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count274
 )
-LaTeX Info: Redefining \ref on input line 177.
-LaTeX Info: Redefining \pageref on input line 177.
-LaTeX Info: Redefining \nameref on input line 177.
+LaTeX Info: Redefining \ref on input line 180.
+LaTeX Info: Redefining \pageref on input line 180.
+LaTeX Info: Redefining \nameref on input line 180.
 (./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
@@ -305,36 +305,36 @@ LaTeX Info: Redefining \nameref on input line 177.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 186.
+line 192.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 186.
+(Font)              scaled to size 12.0pt on input line 192.
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 186.
+ut line 192.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 186.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 192.
 
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/l/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 193.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 199.
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 231.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 237.
 
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 260.
+line 266.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 260.
+(Font)              scaled to size 10.95pt on input line 266.
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./resu
-me.aux)
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
+resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -342,26 +342,27 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11345 strings out of 478268
- 180919 string characters out of 5846348
- 485075 words of memory out of 5000000
- 29416 multiletter control sequences out of 15000+600000
- 621031 words of font info for 59 fonts, out of 8000000 for 9000
+ 11352 strings out of 478268
+ 181058 string characters out of 5846348
+ 482194 words of memory out of 5000000
+ 29420 multiletter control sequences out of 15000+600000
+ 635820 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,63p,331b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,15n,63p,331b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr
 /local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{
 /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.e
 nc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Bold.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Book.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Light.pfb
-></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-LightItal
-ic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/FontA
-wesome.pfb>
-Output written on resume.pdf (1 page, 212586 bytes).
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-BoldItal
+ic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Boo
+k.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Ligh
+t.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Ligh
+tItalic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/
+FontAwesome.pfb>
+Output written on resume.pdf (2 pages, 245479 bytes).
 PDF statistics:
- 65 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
