@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  26 APR 2023 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  26 APR 2023 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -305,25 +305,25 @@ LaTeX Info: Redefining \nameref on input line 181.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
 
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 195.
+line 197.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 12.0pt on input line 195.
+(Font)              scaled to size 12.0pt on input line 197.
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 195.
+ut line 197.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/b/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 195.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 197.
 
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/l/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 202.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 204.
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 240.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 242.
 
 [1
 
@@ -331,9 +331,9 @@ LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 271.
+line 273.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 271.
+(Font)              scaled to size 10.95pt on input line 273.
 [2] (./resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -342,13 +342,13 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11352 strings out of 478268
- 181058 string characters out of 5846348
+ 11353 strings out of 478268
+ 181091 string characters out of 5846348
  478197 words of memory out of 5000000
  29420 multiletter control sequences out of 15000+600000
- 635820 words of font info for 61 fonts, out of 8000000 for 9000
+ 636273 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,15n,63p,331b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,15n,63p,325b,363s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc}{/usr
 /local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{
 /usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.e
@@ -359,7 +359,7 @@ k.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Ligh
 t.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fira/FiraSans-Ligh
 tItalic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/fontawesome/
 FontAwesome.pfb>
-Output written on resume.pdf (2 pages, 246007 bytes).
+Output written on resume.pdf (2 pages, 246013 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
