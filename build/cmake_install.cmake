@@ -1,4 +1,4 @@
-# Install script for directory: /Users/yigityilmaz/Repos/resume
+# Install script for directory: /Users/yves/Repositories/resume
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/yigityilmaz/Repos/resume/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/yves/Repositories/resume/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
