@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.23)  23 OCT 2023 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.23)  16 AUG 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -317,7 +317,7 @@ LaTeX Font Warning: Font shape `U/fontawesomeone/l/n' undefined
 
 
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 251.
+(Font)              using `U/fontawesometwo/m/n' instead on input line 252.
 
 [1
 
@@ -328,9 +328,9 @@ texlive/2023/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <10.95> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 282.
+line 283.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 282.
+(Font)              scaled to size 10.95pt on input line 283.
 [2] (./resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -353,7 +353,7 @@ c.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fira/FiraSans-Book
 .pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fira/FiraSans-Light
 Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome/F
 ontAwesome.pfb>
-Output written on resume.pdf (2 pages, 246497 bytes).
+Output written on resume.pdf (2 pages, 246535 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
