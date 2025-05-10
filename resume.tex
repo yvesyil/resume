@@ -18,8 +18,7 @@
   \usepackage[pdftex]{hyperref}
 \fi
 \usepackage{fontawesome}
-\usepackage[sfdefault,light]{FiraSans}
-\usepackage{anyfontsize}
+\usepackage{PlayfairDisplay}
 \usepackage{xcolor}
 \usepackage{tabularx}
 
@@ -58,9 +57,9 @@
 
 % Define colours
 \definecolor{primary}{HTML}{000000}
-\definecolor{secondary}{HTML}{0D47A1}
+\definecolor{secondary}{HTML}{FA4C11}
 \definecolor{accent}{HTML}{263238}
-\definecolor{links}{HTML}{1565C0}
+\definecolor{links}{HTML}{FC6C05}
 
 %------------------------------------------------------------------------------------------------------------------- 
 
@@ -119,7 +118,7 @@
 \newcommand{\resumeEntryTSDL}[4]{
   \vspace{-1pt}\item[]
     \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
-      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+      \textbf{\color{primary}#1} & {\color{accent}\small#2} \\
       \textit{\color{accent}\small#3} & \textit{\color{accent}\small#4} \\
     \end{tabularx}\vspace{-6pt}
 }
@@ -128,7 +127,7 @@
 \newcommand{\resumeEntryTD}[2]{
   \vspace{-1pt}\item[]
     \begin{tabularx}{0.97\textwidth}{X@{\hspace{60pt}}r}
-      \textbf{\color{primary}#1} & {\firabook\color{accent}\small#2} \\
+      \textbf{\color{primary}#1} & {\color{accent}\small#2} \\
     \end{tabularx}\vspace{-6pt}
 }
 
@@ -185,6 +184,8 @@
 
 \headertype{\linkedin}{\github}{\website}{\phone}{\email}{\howtopronounce} % Set the order of items here
 
+\vspace{2pt}
+
 \textit{Amsterdam, Netherlands}
 
 \vspace{15pt}
@@ -219,8 +220,10 @@ The quote "What I cannot create, I do not understand" by Richard Feynman really 
       {ING Bank Nederland}{October 2023 -- Present}
       {Software Developer}{Amsterdam, Netherlands}
     \resumeItemListStart
-      \resumeItem {Currently working on the improvement and the migration of billing services within IT.}
-      \resumeItem {Worked on Oracle databases and Java Spring APIs with Azure DevOps.}
+      \resumeItem {Currently involved on the improvement and the migration of billing services to onboard business customers to a new platform within daily banking.}
+      \resumeItem {Developed test tools using Python and Selenium that automated the regression testing of the migrated services.}
+      \resumeItem {Worked with Oracle databases, wrote extensive SQL queries and stored procedures, and worked on the improvement of Java Spring APIs via best practices.}
+      \resumeItem {Created CI/CD pipelines on Azure DevOps for seamless deployment/execution of the migrated services.}
     \resumeItemListEnd
   \resumeEntryEnd
 
@@ -253,19 +256,17 @@ The quote "What I cannot create, I do not understand" by Richard Feynman really 
 
   \resumeEntryStart
     \resumeEntryTD
-      {Claw.js}{\githubicon \href{https://github.com/tussoftwaredesign/claw-js}{ /claw-js}}
+      {CLOWA \href{https://clowa.net}{(clowa.net)}}{\githubicon \href{https://github.com/Roi-des-Rats/clowa}{ /clowa}}
     \resumeItemListStart
-      \resumeItem {A linear algebra library for JavaScript that's written in both C and JavaScript that uses OpenCL to compute matrices on the GPU. It's aimed to be used for Deep Learning applications as it can reduce training time.}
+      \resumeItem {CLOWA (Curated List Of Web Articles) is a website where a handful of curators share articles, blog posts, and other written web content that they think are worth reading. Written using Next.js, Tailwind CSS, and TypeScript with a Supabase backend (PostgreSQL).}
     \resumeItemListEnd
   \resumeEntryEnd
 
-  \pagebreak
-
   \resumeEntryStart
     \resumeEntryTD
-      {Introspection}{\githubicon \href{https://github.com/yvesyil/introspection}{ /introspection}}
+      {Claw.js}{\githubicon \href{https://github.com/yvesyil/claw-js}{ /claw-js}}
     \resumeItemListStart
-      \resumeItem {A fullstack compiler explorer web application tool that converts higher-level source code (e.g. C) to lower level representation (x86 assembly) using React with TypeScript on the frontend and a microservice architecture in the backend using Java, Go, and TypeScript.}
+      \resumeItem {A linear algebra library for JavaScript that's written in both C and JavaScript that uses OpenCL to compute matrices on the GPU. It's aimed to be used for Deep Learning applications as it can reduce training time.}
     \resumeItemListEnd
   \resumeEntryEnd
 
@@ -273,16 +274,16 @@ The quote "What I cannot create, I do not understand" by Richard Feynman really 
     \resumeEntryTD
       {Neural Network from Scratch}{\githubicon \href{https://github.com/yvesyil/neural-net-api}{ /neural-net-api}}
     \resumeItemListStart
-      \resumeItem {A Neural network completely written from scratch using TypeScript with matrix and differential operations are written by me, designed to recognize hand-written digits. Also serves as a REST API that can be interacted with by sending JSON over the wire.}
+      \resumeItem {A Neural network completely written from scratch using TypeScript with matrix and differential operations are written by me, designed to recognize hand-written digits. Also serves as a REST API.}
     \resumeItemListEnd
   \resumeEntryEnd
 
 %-------------------------------------------------- PROGRAMMING SKILLS --------------------------------------------------
 \section{\faGears}{Skills}
   \resumeEntryStart
-    \resumeEntryS{Programming Languages} {JavaScript, TypeScript, Python, Go, C, C++, Java, PHP, HTML, CSS, SQL, JSON, YAML}
-    \resumeEntryS{Tools \& Technologies} {Git, Node.js, MongoDB, MySQL, Docker, Kubernetes, Microsoft Azure, Azure DevOps, Linux, CMake, Ansible, Coreutils \& binutils}
-    \resumeEntryS{Frameworks \& Libraries} {React, Express.js, Flask, Pandas, PyTorch, OpenGL, OpenCL, WebGL}
+    \resumeEntryS{Programming Languages} {JavaScript, TypeScript, Python, Java, Go, C, C++, HTML, CSS, SQL}
+    \resumeEntryS{Tools \& Technologies} {Git, Node.js, Oracle, PostgreSQL, Docker, Kubernetes, Microsoft Azure, Azure DevOps, Linux, CMake, Ansible, Coreutils \& binutils}
+    \resumeEntryS{Frameworks \& Libraries} {React, Express.js, Next.js, Flask, Pandas, Numpy, PyTorch, OpenGL, OpenCL, WebGL, Tailwind}
     \resumeEntryS{Natural Languages} {Turkish (Native), English (Advanced), French (Basic), Dutch (Basic)}
   \resumeEntryEnd
 
